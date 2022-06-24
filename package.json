@@ -1,16 +1,16 @@
 {
   "name": "vuepress-starter",
   "version": "1.0.0",
-  "description": "CloudBase Framework VuePress Example",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
-    "deploy": "cloudbase framework deploy"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
-  "author": "BookerZhao",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.5.0"
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.13"
   }
 }
